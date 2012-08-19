@@ -1,0 +1,11 @@
+#include "%CLASSNAME%.h"
+
+%CLASSNAME%::%CLASSNAME%()
+{
+  %INIT%
+}
+
+%SETTERSOURCE%
+
+%GETTERSOURCE%
+

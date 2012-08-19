@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/templates">
+        <file>template.hrcqt</file>
+        <file>template.hrcwx</file>
+        <file>template.srcqt</file>
+        <file>template.srcwx</file>
+    </qresource>
+</RCC>

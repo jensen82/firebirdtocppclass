@@ -1,0 +1,20 @@
+#ifndef %CLASSNAME%_H
+#define %CLASSNAME%_H
+
+#include "wx/object.h"
+
+class %CLASSNAME% : public wxObject
+{
+public:
+  %CLASSNAME%();
+  
+  %SETTERHEADER%
+  
+  %GETTERHEADER%
+    
+private:
+  %HEADERMEMBERS%
+    
+};
+
+#endif // %CLASSNAME%_H

@@ -1,0 +1,26 @@
+#ifndef %CLASSNAME%_H
+#define %CLASSNAME%_H
+
+#include <QObject>
+
+class %CLASSNAME% : public QObject
+{
+    Q_OBJECT
+public:
+  explicit %CLASSNAME%(QObject *parent = 0);
+  
+  %SETTERHEADER%
+  
+  %GETTERHEADER%
+    
+signals:
+    
+public slots:
+    
+private:
+  
+  %HEADERMEMBERS%
+    
+};
+
+#endif // %CLASSNAME%_H

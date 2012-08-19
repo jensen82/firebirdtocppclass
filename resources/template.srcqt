@@ -1,0 +1,12 @@
+#include "%CLASSNAME%.h"
+
+%CLASSNAME%::%CLASSNAME%(QObject *parent) :
+    QObject(parent)
+{
+  %INIT%
+}
+
+%SETTERSOURCE%
+
+%GETTERSOURCE%
+
